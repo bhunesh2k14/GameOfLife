@@ -18,3 +18,6 @@ The simulation starts with an initial pattern of cells on the grid and computes 
 - Enter Rows and Column.
 - Choose Random or Custom Input, for the start state of the colony.
   - If Custom input is choosen provide the input sequence as space-separated integers for each cell going from left-right top-bottom manner.
+- Simulation runs showing each generation and stops if stable state is reached.
+  *delay can be set in source code between each generations with 50ms being the default set.*
+
